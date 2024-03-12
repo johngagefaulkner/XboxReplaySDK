@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XboxReplaySDK", "XboxReplaySDK\XboxReplaySDK.csproj", "{81A8F4A0-919E-4715-917A-A52A21612A55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XboxReplayConsoleTestApp", "XboxReplayConsoleTestApp\XboxReplayConsoleTestApp.csproj", "{A8D82159-E949-41B5-9AAA-800C3F2797E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A8F4A0-919E-4715-917A-A52A21612A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A8F4A0-919E-4715-917A-A52A21612A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A8F4A0-919E-4715-917A-A52A21612A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A8F4A0-919E-4715-917A-A52A21612A55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8D82159-E949-41B5-9AAA-800C3F2797E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D82159-E949-41B5-9AAA-800C3F2797E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D82159-E949-41B5-9AAA-800C3F2797E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D82159-E949-41B5-9AAA-800C3F2797E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {201566C7-56E8-497E-84AE-DFAC6F1639E1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Assets\XboxReplayLogo-Icon.ico</ApplicationIcon>
+    <Title>XboxReplaySDK</Title>
+    <Description>.NET 8 (C# 12.0) SDK for the Xbox Replay API hosted at https://xboxreplay.net/</Description>
+    <PackageProjectUrl>https://xboxreplay.net/</PackageProjectUrl>
+    <PackageIcon>XboxReplayLogo-Icon-512px.png</PackageIcon>
+    <PackageTags>xbox;xboxreplay;xboxlive;xbl;</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\XboxReplay.png" />
+    <None Remove="Assets\XboxReplayLogo-Icon-1024px.png" />
+    <None Remove="Assets\XboxReplayLogo-Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\XboxReplay.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\XboxReplayLogo-Icon-1024px.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\XboxReplayLogo-Icon-512px.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\XboxReplayLogo-Icon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XboxReplayLogo-Icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\XboxReplayLogo-Icon-512px.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
